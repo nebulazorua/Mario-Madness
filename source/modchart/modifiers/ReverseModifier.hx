@@ -52,7 +52,7 @@ class ReverseModifier extends NoteModifier {
 
 
 
-        if(ClientPrefs.downScroll)
+		if (PlayState.instance.hasDownScroll)
             val = 1-val;
 
         return val;
